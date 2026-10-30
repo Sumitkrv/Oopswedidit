@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="miet-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF9EF"/>
+      <stop offset="100%" stop-color="#F7F1DF"/>
+    </linearGradient>
+    <filter id="miet-sh" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#532510" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#miet-bg)"/>
+  <!-- Grid backdrop -->
+  <line x1="100" y1="0" x2="100" y2="800" stroke="#532510" stroke-opacity="0.06"/>
+  <line x1="1100" y1="0" x2="1100" y2="800" stroke="#532510" stroke-opacity="0.06"/>
+
+  <!-- Main Portal Window -->
+  <g transform="translate(140, 100)" filter="url(#miet-sh)">
+    <rect x="0" y="0" width="920" height="600" rx="16" fill="#FDF9EF" stroke="#532510" stroke-width="1.5"/>
+    <!-- Browser Top Bar -->
+    <rect x="0" y="0" width="920" height="46" rx="16" fill="#532510"/>
+    <rect x="0" y="30" width="920" height="16" fill="#532510"/>
+    <circle cx="28" cy="23" r="5" fill="#E8B79A"/>
+    <circle cx="44" cy="23" r="5" fill="#C46F39"/>
+    <circle cx="60" cy="23" r="5" fill="#FDF9EF" opacity="0.6"/>
+    <text x="460" y="28" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="12" letter-spacing="2" text-anchor="middle">MIET.LIFE // CAMPUS &amp; STUDENT COMMUNITY PLATFORM</text>
+
+    <!-- Campus Life Hero inside browser -->
+    <rect x="40" y="80" width="460" height="480" rx="12" fill="#532510"/>
+    <!-- Architectural Building Silhouette & Sun -->
+    <polygon points="80,520 80,300 240,240 400,300 400,520" fill="#38180A"/>
+    <line x1="240" y1="240" x2="240" y2="520" stroke="#C46F39" stroke-width="2"/>
+    <circle cx="240" cy="180" r="45" fill="#C46F39"/>
+    <g transform="translate(240, 180)">
+      <line x1="0" y1="-55" x2="0" y2="-68" stroke="#E8B79A" stroke-width="2.5"/>
+      <line x1="40" y1="-40" x2="50" y2="-50" stroke="#E8B79A" stroke-width="2.5"/>
+      <line x1="55" y1="0" x2="68" y2="0" stroke="#E8B79A" stroke-width="2.5"/>
+      <line x1="40" y1="40" x2="50" y2="50" stroke="#E8B79A" stroke-width="2.5"/>
+      <line x1="-40" y1="40" x2="-50" y2="50" stroke="#E8B79A" stroke-width="2.5"/>
+      <line x1="-55" y1="0" x2="-68" y2="0" stroke="#E8B79A" stroke-width="2.5"/>
+      <line x1="-40" y1="-40" x2="-50" y2="-50" stroke="#E8B79A" stroke-width="2.5"/>
+    </g>
+
+    <text x="70" y="440" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700">MIET LIFE</text>
+    <text x="70" y="475" fill="#E8B79A" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="24">Empowering 10,000+ Students</text>
+
+    <!-- Right Side Dashboard & Events -->
+    <g transform="translate(530, 80)">
+      <rect x="0" y="0" width="350" height="140" rx="10" fill="#F7F1DF" stroke="#532510" stroke-width="1" stroke-opacity="0.15"/>
+      <text x="20" y="32" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.6">UPCOMING CAMPUS FESTIVAL</text>
+      <text x="20" y="65" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700">Kolaahal 2026</text>
+      <text x="20" y="92" fill="#C46F39" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600">48 Events // Live Registration Active</text>
+      <rect x="20" y="105" width="130" height="24" rx="12" fill="#532510"/>
+      <text x="85" y="121" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="10" font-weight="700" text-anchor="middle">View Itinerary →</text>
+
+      <!-- Student Clubs Grid -->
+      <g transform="translate(0, 160)">
+        <rect x="0" y="0" width="350" height="320" rx="10" fill="#FDF9EF" stroke="#532510" stroke-width="1" stroke-opacity="0.15"/>
+        <text x="20" y="36" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="700">Student Hubs &amp; Communities</text>
+        
+        <rect x="20" y="55" width="310" height="60" rx="8" fill="#F7F1DF"/>
+        <text x="35" y="85" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">ACM &amp; IEEE Tech Chapter</text>
+        <text x="35" y="102" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.7">1,400+ Active Members</text>
+
+        <rect x="20" y="125" width="310" height="60" rx="8" fill="#F7F1DF"/>
+        <text x="35" y="155" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">Entrepreneurship Cell</text>
+        <text x="35" y="172" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.7">Incubator &amp; Seed Support</text>
+
+        <rect x="20" y="195" width="310" height="60" rx="8" fill="#F7F1DF"/>
+        <text x="35" y="225" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">Literary &amp; Cultural Society</text>
+        <text x="35" y="242" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.7">Debates, Drama &amp; Arts</text>
+
+        <rect x="20" y="265" width="310" height="42" rx="21" fill="#C46F39"/>
+        <text x="175" y="291" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" text-anchor="middle">Join Student Network →</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Live Tag Badge -->
+  <g transform="translate(980, 680)">
+    <rect x="-60" y="-18" width="120" height="36" rx="18" fill="#532510"/>
+    <text x="0" y="5" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700" letter-spacing="1" text-anchor="middle">● LIVE SITE</text>
+  </g>
+</svg>
+

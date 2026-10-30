@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --color-coffee: #532510;
+  --color-coffee-dark: #38180a;
+  --color-coffee-muted: #7a4222;
+  --color-terracotta: #c46f39;
+  --color-terracotta-dark: #a85826;
+  --color-terracotta-light: #d98652;
+  --color-cream: #fdf9ef;
+  --color-cream-light: #fffdf8;
+  --color-cream-card: #f7f1df;
+  --color-cream-border: #e8dec8;
+  --color-peach: #e8b79a;
+  --color-peach-light: #f6d7c3;
+  --color-peach-deep: #dc9f7e;
+
+  --font-display: var(--font-space-grotesk), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-sans: var(--font-dm-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: var(--font-instrument-serif), Georgia, serif;
+}
+
+:root {
+  --background: #fdf9ef;
+  --foreground: #532510;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #fdf9ef;
+  color: #532510;
+}
+
+body {
+  background-color: #fdf9ef;
+  color: #532510;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  selection-background-color: #c46f39;
+  selection-color: #fdf9ef;
+}
+
+::selection {
+  background: #c46f39;
+  color: #fdf9ef;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fdf9ef;
+}
+::-webkit-scrollbar-thumb {
+  background: #c46f39;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #532510;
+}
+
+/* Grain texture overlay */
+.bg-grain {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.035'/%3E%3C/svg%3E");
+}
+
+.bg-grain-dark {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.06'/%3E%3C/svg%3E");
+}

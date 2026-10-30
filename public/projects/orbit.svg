@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="orb-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF9EF"/>
+      <stop offset="100%" stop-color="#F7F1DF"/>
+    </linearGradient>
+    <linearGradient id="chart-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C46F39" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#C46F39" stop-opacity="0.0"/>
+    </linearGradient>
+    <filter id="orb-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#532510" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#orb-bg)"/>
+
+  <!-- Subtle Blueprint grid in background -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#532510" stroke-opacity="0.04" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+
+  <!-- Main SaaS Dashboard Window -->
+  <g transform="translate(100, 80)" filter="url(#orb-shadow)">
+    <rect x="0" y="0" width="1000" height="640" rx="16" fill="#FDF9EF" stroke="#532510" stroke-width="1.5"/>
+
+    <!-- Sidebar -->
+    <rect x="0" y="0" width="220" height="640" rx="16" fill="#532510"/>
+    <rect x="200" y="0" width="20" height="640" fill="#532510"/>
+
+    <!-- Sidebar Logo -->
+    <circle cx="50" cy="48" r="14" fill="#C46F39"/>
+    <circle cx="50" cy="48" r="6" fill="#FDF9EF"/>
+    <text x="76" y="54" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" letter-spacing="1">orbit.crm</text>
+
+    <!-- Sidebar Navigation Items -->
+    <g transform="translate(30, 110)">
+      <rect x="0" y="0" width="160" height="38" rx="8" fill="#C46F39"/>
+      <text x="36" y="24" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600">Revenue Flow</text>
+
+      <text x="36" y="68" fill="#E8B79A" font-family="'Space Grotesk', sans-serif" font-size="13">Pipeline Deals</text>
+      <text x="36" y="112" fill="#E8B79A" font-family="'Space Grotesk', sans-serif" font-size="13">Lead Velocity</text>
+      <text x="36" y="156" fill="#E8B79A" font-family="'Space Grotesk', sans-serif" font-size="13">Forecasting</text>
+      <text x="36" y="200" fill="#E8B79A" font-family="'Space Grotesk', sans-serif" font-size="13">Automations</text>
+    </g>
+
+    <!-- Top Navigation Bar in App -->
+    <rect x="220" y="0" width="780" height="68" fill="#F7F1DF"/>
+    <line x1="220" y1="68" x2="1000" y2="68" stroke="#532510" stroke-opacity="0.1" stroke-width="1"/>
+    <text x="250" y="42" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700">Q3 Deal Intelligence</text>
+    <rect x="830" y="18" width="130" height="32" rx="16" fill="#C46F39"/>
+    <text x="895" y="39" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600" text-anchor="middle">+ New Opportunity</text>
+
+    <!-- KPI Metric Cards inside Dashboard -->
+    <g transform="translate(250, 94)">
+      <!-- Card 1 -->
+      <rect x="0" y="0" width="220" height="96" rx="10" fill="#FDF9EF" stroke="#532510" stroke-width="1" stroke-opacity="0.15"/>
+      <text x="18" y="28" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.6">CLOSED REVENUE</text>
+      <text x="18" y="62" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700">$1,480,200</text>
+      <text x="18" y="82" fill="#C46F39" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">↑ 34.2% vs last quarter</text>
+
+      <!-- Card 2 -->
+      <rect x="250" y="0" width="220" height="96" rx="10" fill="#FDF9EF" stroke="#532510" stroke-width="1" stroke-opacity="0.15"/>
+      <text x="268" y="28" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.6">WIN RATE</text>
+      <text x="268" y="62" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700">68.4%</text>
+      <text x="268" y="82" fill="#C46F39" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">Enterprise Segment</text>
+
+      <!-- Card 3 -->
+      <rect x="500" y="0" width="220" height="96" rx="10" fill="#FDF9EF" stroke="#532510" stroke-width="1" stroke-opacity="0.15"/>
+      <text x="518" y="28" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.6">SALES CYCLE</text>
+      <text x="518" y="62" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="26" font-weight="700">18.2 Days</text>
+      <text x="518" y="82" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.7">-4 days acceleration</text>
+    </g>
+
+    <!-- Main Chart Section -->
+    <g transform="translate(250, 220)">
+      <rect x="0" y="0" width="720" height="380" rx="10" fill="#F7F1DF" stroke="#532510" stroke-width="1" stroke-opacity="0.12"/>
+      <text x="24" y="36" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="700">Predictive Pipeline Acceleration</text>
+      
+      <!-- Chart Area -->
+      <path d="M 40 310 Q 180 260, 320 200 T 520 120 T 680 80 L 680 340 L 40 340 Z" fill="url(#chart-grad)"/>
+      <path d="M 40 310 Q 180 260, 320 200 T 520 120 T 680 80" fill="none" stroke="#C46F39" stroke-width="3.5"/>
+
+      <!-- Data Dots -->
+      <circle cx="40" cy="310" r="5" fill="#532510"/>
+      <circle cx="320" cy="200" r="5" fill="#532510"/>
+      <circle cx="520" cy="120" r="5" fill="#532510"/>
+      <circle cx="680" cy="80" r="6" fill="#C46F39" stroke="#FDF9EF" stroke-width="2"/>
+
+      <!-- Tooltip Callout -->
+      <g transform="translate(460, 40)" filter="url(#orb-shadow)">
+        <rect x="0" y="0" width="120" height="42" rx="6" fill="#532510"/>
+        <text x="60" y="18" fill="#E8B79A" font-family="'Space Grotesk', sans-serif" font-size="10" text-anchor="middle">OCTOBER FORECAST</text>
+        <text x="60" y="34" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700" text-anchor="middle">$492,000</text>
+      </g>
+    </g>
+  </g>
+</svg>
+

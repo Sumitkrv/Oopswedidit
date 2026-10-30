@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bl-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8B79A" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#FDF9EF"/>
+      <stop offset="100%" stop-color="#F7F1DF"/>
+    </linearGradient>
+    <filter id="bl-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="8" dy="20" stdDeviation="20" flood-color="#532510" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bl-bg)"/>
+
+  <!-- Left: Bold Typography Campaign Poster -->
+  <g transform="translate(140, 120)" filter="url(#bl-shadow)">
+    <rect x="0" y="0" width="460" height="560" rx="16" fill="#532510"/>
+    
+    <!-- Terracotta Frame -->
+    <rect x="20" y="20" width="420" height="520" rx="10" fill="none" stroke="#C46F39" stroke-width="2"/>
+
+    <!-- Poster Content -->
+    <text x="50" y="80" fill="#E8B79A" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700" letter-spacing="3">BLOOM BEVERAGES // AD NO. 12</text>
+    
+    <text x="50" y="170" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="700" letter-spacing="-1">DON'T</text>
+    <text x="50" y="230" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="700" letter-spacing="-1">SETTLE</text>
+    <text x="50" y="295" fill="#E8B79A" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="64">for bland.</text>
+
+    <line x1="50" y1="330" x2="410" y2="330" stroke="#C46F39" stroke-width="2"/>
+
+    <text x="50" y="380" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="16" opacity="0.85">
+      Sparkling adaptogenic botanicals crafted
+    </text>
+    <text x="50" y="410" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="16" opacity="0.85">
+      for minds that think past 5 PM.
+    </text>
+
+    <!-- Terracotta Sun Rays in Poster -->
+    <g transform="translate(360, 450) scale(0.8)">
+      <circle cx="0" cy="0" r="16" fill="#C46F39"/>
+      <line x1="0" y1="-26" x2="0" y2="-40" stroke="#C46F39" stroke-width="3" stroke-linecap="round"/>
+      <line x1="18" y1="-18" x2="28" y2="-28" stroke="#C46F39" stroke-width="3" stroke-linecap="round"/>
+      <line x1="26" y1="0" x2="40" y2="0" stroke="#C46F39" stroke-width="3" stroke-linecap="round"/>
+      <line x1="18" y1="18" x2="28" y2="28" stroke="#C46F39" stroke-width="3" stroke-linecap="round"/>
+      <line x1="0" y1="26" x2="0" y2="40" stroke="#C46F39" stroke-width="3" stroke-linecap="round"/>
+      <line x1="-18" y1="18" x2="-28" y2="28" stroke="#C46F39" stroke-width="3" stroke-linecap="round"/>
+      <line x1="-26" y1="0" x2="-40" y2="0" stroke="#C46F39" stroke-width="3" stroke-linecap="round"/>
+      <line x1="-18" y1="-18" x2="-28" y2="-28" stroke="#C46F39" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <text x="50" y="490" fill="#E8B79A" font-family="'Space Grotesk', sans-serif" font-size="12" letter-spacing="1">ZERO REFINED SUGARS // 100% REAL FLAVOR</text>
+  </g>
+
+  <!-- Right: Phone Story / Social Mockup -->
+  <g transform="translate(680, 100)" filter="url(#bl-shadow)">
+    <!-- Phone Bezel -->
+    <rect x="0" y="0" width="340" height="600" rx="40" fill="#532510" stroke="#C46F39" stroke-width="3"/>
+    
+    <!-- Phone Screen -->
+    <rect x="14" y="14" width="312" height="572" rx="30" fill="#FDF9EF"/>
+
+    <!-- Story Header -->
+    <rect x="30" y="36" width="280" height="4" rx="2" fill="#532510" opacity="0.2"/>
+    <rect x="30" y="36" width="160" height="4" rx="2" fill="#C46F39"/>
+    
+    <circle cx="50" cy="62" r="14" fill="#C46F39"/>
+    <text x="74" y="66" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700">bloom.sips</text>
+
+    <!-- Graphic post in phone -->
+    <rect x="30" y="90" width="280" height="380" rx="16" fill="#F7F1DF" stroke="#532510" stroke-width="1"/>
+    
+    <!-- Can Graphic in post -->
+    <rect x="120" y="160" width="100" height="190" rx="30" fill="#C46F39"/>
+    <rect x="130" y="145" width="80" height="15" rx="4" fill="#532510"/>
+    <text x="170" y="240" fill="#FDF9EF" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="28" text-anchor="middle">bloom</text>
+    <text x="170" y="265" fill="#E8B79A" font-family="'Space Grotesk', sans-serif" font-size="10" font-weight="700" letter-spacing="2" text-anchor="middle">HIBISCUS</text>
+
+    <!-- Sticker on post -->
+    <g transform="translate(85, 340) rotate(-8)">
+      <rect x="0" y="0" width="110" height="30" rx="6" fill="#532510"/>
+      <text x="55" y="19" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="10" font-weight="700" text-anchor="middle">TASTE TEST ★★★★★</text>
+    </g>
+
+    <!-- Action Bar at bottom -->
+    <rect x="30" y="500" width="280" height="46" rx="23" fill="#532510"/>
+    <text x="170" y="528" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600" text-anchor="middle">Shop New Flavors ↗</text>
+  </g>
+</svg>
+

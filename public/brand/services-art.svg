@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="srv-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF9EF"/>
+      <stop offset="100%" stop-color="#F7F1DF"/>
+    </linearGradient>
+    <filter id="srv-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="6" dy="16" stdDeviation="20" flood-color="#532510" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="700" fill="url(#srv-bg)"/>
+
+  <!-- Service Pillars Visual Symphony -->
+  <!-- 01 Web Design -->
+  <g transform="translate(80, 140)" filter="url(#srv-shadow)">
+    <rect x="0" y="0" width="160" height="420" rx="20" fill="#532510"/>
+    <text x="80" y="50" fill="#E8B79A" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700" text-anchor="middle">01</text>
+    <circle cx="80" cy="120" r="36" fill="#C46F39"/>
+    <!-- Browser Wireframe Mini -->
+    <rect x="30" y="200" width="100" height="150" rx="8" fill="#FDF9EF"/>
+    <rect x="40" y="220" width="80" height="6" rx="3" fill="#532510"/>
+    <rect x="40" y="235" width="50" height="4" rx="2" fill="#C46F39"/>
+    <rect x="40" y="255" width="80" height="40" rx="4" fill="#F7F1DF"/>
+    <text x="80" y="390" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600" text-anchor="middle">WEB DESIGN</text>
+  </g>
+
+  <!-- 02 Software -->
+  <g transform="translate(260, 90)" filter="url(#srv-shadow)">
+    <rect x="0" y="0" width="160" height="470" rx="20" fill="#C46F39"/>
+    <text x="80" y="50" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700" text-anchor="middle">02</text>
+    <!-- Code Brackets & Nodes -->
+    <circle cx="80" cy="140" r="40" fill="#532510"/>
+    <text x="80" y="152" fill="#E8B79A" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" text-anchor="middle">&lt; / &gt;</text>
+    <!-- Pipeline Bar -->
+    <rect x="30" y="220" width="100" height="180" rx="8" fill="#532510" opacity="0.4"/>
+    <circle cx="80" cy="260" r="12" fill="#FDF9EF"/>
+    <line x1="80" y1="272" x2="80" y2="330" stroke="#FDF9EF" stroke-width="2"/>
+    <circle cx="80" cy="340" r="10" fill="#E8B79A"/>
+    <text x="80" y="440" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600" text-anchor="middle">SOFTWARE</text>
+  </g>
+
+  <!-- 03 Branding (Centerpiece) -->
+  <g transform="translate(440, 50)" filter="url(#srv-shadow)">
+    <rect x="0" y="0" width="180" height="520" rx="24" fill="#FDF9EF" stroke="#532510" stroke-width="2"/>
+    <text x="90" y="50" fill="#C46F39" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" text-anchor="middle">03</text>
+    <circle cx="90" cy="140" r="50" fill="#532510"/>
+    <text x="90" y="156" fill="#FDF9EF" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="44" text-anchor="middle">B</text>
+    
+    <!-- Color Swatches & Typo hierarchy -->
+    <g transform="translate(30, 230)">
+      <circle cx="20" cy="20" r="14" fill="#532510"/>
+      <circle cx="60" cy="20" r="14" fill="#C46F39"/>
+      <circle cx="100" cy="20" r="14" fill="#E8B79A"/>
+      <rect x="10" y="60" width="100" height="140" rx="8" fill="#F7F1DF"/>
+      <text x="60" y="100" fill="#532510" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="22" text-anchor="middle">Brand Soul</text>
+      <line x1="25" y1="120" x2="95" y2="120" stroke="#C46F39" stroke-width="1.5"/>
+    </g>
+    <text x="90" y="490" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" text-anchor="middle">BRAND IDENTITY</text>
+  </g>
+
+  <!-- 04 Marketing -->
+  <g transform="translate(640, 110)" filter="url(#srv-shadow)">
+    <rect x="0" y="0" width="150" height="450" rx="20" fill="#E8B79A"/>
+    <text x="75" y="50" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700" text-anchor="middle">04</text>
+    <!-- Megaphone / Waveform Motif -->
+    <circle cx="75" cy="130" r="36" fill="#532510"/>
+    <path d="M 60 130 Q 75 110, 90 130 T 100 130" fill="none" stroke="#FDF9EF" stroke-width="3"/>
+    
+    <!-- Story Card -->
+    <rect x="25" y="200" width="100" height="160" rx="10" fill="#532510"/>
+    <text x="75" y="250" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="10" font-weight="700" text-anchor="middle">CAMPAIGN</text>
+    <circle cx="75" cy="285" r="16" fill="#C46F39"/>
+    <text x="75" y="420" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700" text-anchor="middle">MARKETING</text>
+  </g>
+
+  <!-- 05 Automation -->
+  <g transform="translate(810, 160)" filter="url(#srv-shadow)">
+    <rect x="0" y="0" width="140" height="400" rx="20" fill="#532510"/>
+    <text x="70" y="50" fill="#C46F39" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700" text-anchor="middle">05</text>
+    <!-- Gears / Spark Rays -->
+    <g transform="translate(70, 130)">
+      <circle cx="0" cy="0" r="28" fill="#C46F39"/>
+      <circle cx="0" cy="0" r="10" fill="#FDF9EF"/>
+      <line x1="0" y1="-38" x2="0" y2="-48" stroke="#E8B79A" stroke-width="2"/>
+      <line x1="27" y1="-27" x2="34" y2="-34" stroke="#E8B79A" stroke-width="2"/>
+      <line x1="38" y1="0" x2="48" y2="0" stroke="#E8B79A" stroke-width="2"/>
+      <line x1="27" y1="27" x2="34" y2="34" stroke="#E8B79A" stroke-width="2"/>
+      <line x1="0" y1="38" x2="0" y2="48" stroke="#E8B79A" stroke-width="2"/>
+      <line x1="-27" y1="27" x2="-34" y2="34" stroke="#E8B79A" stroke-width="2"/>
+      <line x1="-38" y1="0" x2="-48" y2="0" stroke="#E8B79A" stroke-width="2"/>
+      <line x1="-27" y1="-27" x2="-34" y2="-34" stroke="#E8B79A" stroke-width="2"/>
+    </g>
+    <!-- Sync lines -->
+    <rect x="25" y="210" width="90" height="90" rx="8" fill="#38180A"/>
+    <path d="M 45 250 A 20 20 0 1 1 85 260" fill="none" stroke="#C46F39" stroke-width="3" stroke-linecap="round"/>
+    <text x="70" y="370" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600" text-anchor="middle">AUTOMATION</text>
+  </g>
+</svg>
+

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cnt-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF9EF"/>
+      <stop offset="100%" stop-color="#F7F1DF"/>
+    </linearGradient>
+    <filter id="cnt-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="6" dy="20" stdDeviation="22" flood-color="#532510" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#cnt-bg)"/>
+
+  <!-- Concentric terracotta rings -->
+  <circle cx="400" cy="400" r="320" fill="none" stroke="#C46F39" stroke-width="1.5" stroke-dasharray="6 6" opacity="0.3"/>
+  <circle cx="400" cy="400" r="220" fill="none" stroke="#532510" stroke-width="1" opacity="0.15"/>
+
+  <!-- Main Welcoming Studio Card -->
+  <g transform="translate(140, 140)" filter="url(#cnt-shadow)">
+    <rect x="0" y="0" width="520" height="520" rx="24" fill="#532510"/>
+    <rect x="18" y="18" width="484" height="484" rx="16" fill="none" stroke="#C46F39" stroke-width="1.5"/>
+
+    <!-- Ceramic Coffee Cup & Steam Motif -->
+    <g transform="translate(260, 160)">
+      <!-- Saucer -->
+      <ellipse cx="0" cy="90" rx="80" ry="16" fill="#C46F39"/>
+      <!-- Cup Body -->
+      <path d="M -50,10 C -50,70, 50,70, 50,10 Z" fill="#FDF9EF"/>
+      <!-- Handle -->
+      <path d="M 45,20 C 70,20, 70,55, 45,55" fill="none" stroke="#FDF9EF" stroke-width="10" stroke-linecap="round"/>
+      <!-- Warm Coffee Surface -->
+      <ellipse cx="0" cy="12" rx="48" ry="12" fill="#38180A"/>
+      <!-- Steam Lines (Playful terracotta rays) -->
+      <path d="M -20,-10 C -30,-30, -10,-45, -20,-65" fill="none" stroke="#E8B79A" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 0,-15 C 10,-35, -10,-55, 0,-75" fill="none" stroke="#C46F39" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 20,-10 C 10,-30, 30,-45, 20,-65" fill="none" stroke="#E8B79A" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Warm Studio Typography -->
+    <text x="260" y="310" fill="#FDF9EF" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="44" text-anchor="middle">Let's have coffee.</text>
+    <text x="260" y="348" fill="#E8B79A" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="600" letter-spacing="3" text-anchor="middle">OR HOP ON A SCREEN SHARE</text>
+    
+    <text x="260" y="390" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="13" opacity="0.8" text-anchor="middle">
+      We read every message and respond within 24 hours.
+    </text>
+
+    <!-- Terracotta Pill Button in Art -->
+    <rect x="160" y="424" width="200" height="46" rx="23" fill="#C46F39"/>
+    <text x="260" y="452" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" text-anchor="middle">thakursumi498@gmail.com</text>
+  </g>
+
+  <!-- Editorial Stamps on Corner -->
+  <g transform="translate(100, 620) rotate(-8)" filter="url(#cnt-shadow)">
+    <circle cx="45" cy="45" r="45" fill="#E8B79A" stroke="#532510" stroke-width="2"/>
+    <text x="45" y="44" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="10" font-weight="800" text-anchor="middle">ALWAYS</text>
+    <text x="45" y="58" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="10" font-weight="800" text-anchor="middle">LISTENING</text>
+  </g>
+</svg>
+

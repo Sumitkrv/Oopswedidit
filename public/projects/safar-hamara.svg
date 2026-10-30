@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sh-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF9EF"/>
+      <stop offset="100%" stop-color="#F7F1DF"/>
+    </linearGradient>
+    <filter id="sh-sh" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#532510" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sh-bg)"/>
+
+  <g transform="translate(140, 100)" filter="url(#sh-sh)">
+    <rect x="0" y="0" width="920" height="600" rx="16" fill="#FDF9EF" stroke="#532510" stroke-width="1.5"/>
+    <rect x="0" y="0" width="920" height="46" rx="16" fill="#532510"/>
+    <rect x="0" y="30" width="920" height="16" fill="#532510"/>
+    <circle cx="28" cy="23" r="5" fill="#E8B79A"/>
+    <circle cx="44" cy="23" r="5" fill="#C46F39"/>
+    <circle cx="60" cy="23" r="5" fill="#FDF9EF" opacity="0.6"/>
+    <text x="460" y="28" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="12" letter-spacing="2" text-anchor="middle">SAFARHAMARA.COM // EXPERIENTIAL EXPEDITIONS ACROSS INDIA</text>
+
+    <!-- Himalayan Landscape Display -->
+    <g transform="translate(40, 80)">
+      <rect x="0" y="0" width="460" height="480" rx="12" fill="#532510"/>
+      <!-- Mountain Ridges & Golden Sun -->
+      <circle cx="230" cy="180" r="65" fill="#C46F39"/>
+      <g transform="translate(230, 180)">
+        <line x1="0" y1="-80" x2="0" y2="-95" stroke="#E8B79A" stroke-width="2.5"/>
+        <line x1="56" y1="-56" x2="68" y2="-68" stroke="#E8B79A" stroke-width="2.5"/>
+        <line x1="80" y1="0" x2="95" y2="0" stroke="#E8B79A" stroke-width="2.5"/>
+        <line x1="-56" y1="-56" x2="-68" y2="-68" stroke="#E8B79A" stroke-width="2.5"/>
+        <line x1="-80" y1="0" x2="-95" y2="0" stroke="#E8B79A" stroke-width="2.5"/>
+      </g>
+
+      <polygon points="50,480 180,240 280,360 380,200 440,480" fill="#38180A"/>
+      <polygon points="50,480 140,320 230,480" fill="#C46F39" opacity="0.5"/>
+      <path d="M 50 440 Q 230 380, 410 440" fill="none" stroke="#E8B79A" stroke-width="3" stroke-dasharray="6 4"/>
+
+      <text x="50" y="340" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700">SAFAR HAMARA</text>
+      <text x="50" y="375" fill="#E8B79A" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="24">Uncharted India Expeditions</text>
+      <text x="50" y="410" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="12" opacity="0.8">
+        Curating immersive journeys from Ladakh high passes to Kerala backwaters.
+      </text>
+
+      <rect x="50" y="435" width="180" height="30" rx="15" fill="#C46F39"/>
+      <text x="140" y="454" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Browse Itineraries →</text>
+    </g>
+
+    <!-- Curated Expeditions Column -->
+    <g transform="translate(530, 80)">
+      <rect x="0" y="0" width="350" height="480" rx="12" fill="#F7F1DF" stroke="#532510" stroke-width="1" stroke-opacity="0.15"/>
+      <text x="24" y="38" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700">Signature Expeditions</text>
+      
+      <rect x="24" y="60" width="302" height="85" rx="8" fill="#FDF9EF"/>
+      <text x="40" y="90" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">Ladakh Nomadic Trails</text>
+      <text x="40" y="110" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.7">10 Days // High-altitude monastery camping &amp; lakes</text>
+      <text x="40" y="130" fill="#C46F39" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">All-Inclusive Expert Sherpa Escort</text>
+
+      <rect x="24" y="160" width="302" height="85" rx="8" fill="#FDF9EF"/>
+      <text x="40" y="190" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">Spiti Valley Winter Whiteout</text>
+      <text x="40" y="210" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.7">8 Days // Snow leopard tracking &amp; homestays</text>
+      <text x="40" y="230" fill="#C46F39" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">Intimate Small Groups (Max 8)</text>
+
+      <rect x="24" y="260" width="302" height="85" rx="8" fill="#FDF9EF"/>
+      <text x="40" y="290" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">Meghalaya Living Root Bridges</text>
+      <text x="40" y="310" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.7">7 Days // Caving, waterfalls &amp; indigenous culture</text>
+      <text x="40" y="330" fill="#C46F39" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">Eco-Conscious Tourism</text>
+
+      <rect x="24" y="370" width="302" height="50" rx="25" fill="#532510"/>
+      <text x="175" y="401" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" text-anchor="middle">Customize Your Private Tour →</text>
+    </g>
+  </g>
+</svg>
+

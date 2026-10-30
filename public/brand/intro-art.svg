@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" width="100%" height="100%">
+  <defs>
+    <linearGradient id="intro-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF9EF"/>
+      <stop offset="100%" stop-color="#F7F1DF"/>
+    </linearGradient>
+    <filter id="intro-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="6" dy="18" stdDeviation="20" flood-color="#532510" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="900" fill="url(#intro-bg)"/>
+
+  <!-- Large Archetype Arch -->
+  <g transform="translate(100, 80)" filter="url(#intro-shadow)">
+    <!-- Main Backing Panel -->
+    <rect x="0" y="0" width="600" height="740" rx="24" fill="#532510"/>
+    
+    <!-- Outer Arch Frame -->
+    <path d="M 60 740 V 300 A 240 240 0 0 1 540 300 V 740 Z" fill="#FDF9EF"/>
+
+    <!-- Inner Arch Frame in Terracotta -->
+    <path d="M 120 740 V 320 A 180 180 0 0 1 480 320 V 740 Z" fill="#C46F39" opacity="0.9"/>
+
+    <!-- Deep Coffee Central Sun -->
+    <circle cx="300" cy="320" r="100" fill="#532510"/>
+
+    <!-- Terracotta & Ivory Sunburst Rays -->
+    <g transform="translate(300, 320)">
+      <line x1="0" y1="-120" x2="0" y2="-140" stroke="#FDF9EF" stroke-width="4" stroke-linecap="round"/>
+      <line x1="85" y1="-85" x2="100" y2="-100" stroke="#FDF9EF" stroke-width="4" stroke-linecap="round"/>
+      <line x1="120" y1="0" x2="140" y2="0" stroke="#FDF9EF" stroke-width="4" stroke-linecap="round"/>
+      <line x1="85" y1="85" x2="100" y2="100" stroke="#FDF9EF" stroke-width="4" stroke-linecap="round"/>
+      <line x1="0" y1="120" x2="0" y2="140" stroke="#FDF9EF" stroke-width="4" stroke-linecap="round"/>
+      <line x1="-85" y1="85" x2="-100" y2="100" stroke="#FDF9EF" stroke-width="4" stroke-linecap="round"/>
+      <line x1="-120" y1="0" x2="-140" y2="0" stroke="#FDF9EF" stroke-width="4" stroke-linecap="round"/>
+      <line x1="-85" y1="-85" x2="-100" y2="-100" stroke="#FDF9EF" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <!-- Typography within Arch -->
+    <text x="300" y="520" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700" letter-spacing="4" text-anchor="middle">NOT YOUR USUAL AGENCY</text>
+    <text x="300" y="580" fill="#FDF9EF" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="52" text-anchor="middle">Crafted to linger.</text>
+    <text x="300" y="630" fill="#E8B79A" font-family="'Space Grotesk', sans-serif" font-size="14" text-anchor="middle">
+      From wild intuition to bulletproof execution.
+    </text>
+
+    <!-- Editorial Accent Line -->
+    <path d="M 220 670 Q 300 690, 380 670" fill="none" stroke="#FDF9EF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Floating Sticker in bottom left -->
+  <g transform="translate(60, 720) rotate(-12)" filter="url(#intro-shadow)">
+    <rect x="-80" y="-30" width="160" height="60" rx="30" fill="#E8B79A" stroke="#532510" stroke-width="2"/>
+    <text x="0" y="6" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="800" text-anchor="middle">SURPRISE &amp; DELIGHT</text>
+  </g>
+</svg>
+

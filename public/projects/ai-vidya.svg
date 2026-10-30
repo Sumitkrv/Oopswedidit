@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ai-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF9EF"/>
+      <stop offset="100%" stop-color="#F7F1DF"/>
+    </linearGradient>
+    <filter id="ai-sh" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#532510" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#ai-bg)"/>
+
+  <g transform="translate(140, 100)" filter="url(#ai-sh)">
+    <rect x="0" y="0" width="920" height="600" rx="16" fill="#FDF9EF" stroke="#532510" stroke-width="1.5"/>
+    <!-- Top Bar -->
+    <rect x="0" y="0" width="920" height="46" rx="16" fill="#532510"/>
+    <rect x="0" y="30" width="920" height="16" fill="#532510"/>
+    <circle cx="28" cy="23" r="5" fill="#E8B79A"/>
+    <circle cx="44" cy="23" r="5" fill="#C46F39"/>
+    <circle cx="60" cy="23" r="5" fill="#FDF9EF" opacity="0.6"/>
+    <text x="460" y="28" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="12" letter-spacing="2" text-anchor="middle">AIVIDYA.VERCEL.APP // NEXT-GEN EDTECH PLATFORM</text>
+
+    <!-- Main EdTech UI -->
+    <g transform="translate(40, 80)">
+      <!-- Left: AI Course Discovery -->
+      <rect x="0" y="0" width="460" height="480" rx="12" fill="#532510"/>
+      
+      <!-- AI Vidya Logo & Brain Icon -->
+      <g transform="translate(50, 60)">
+        <circle cx="24" cy="24" r="24" fill="#C46F39"/>
+        <text x="24" y="31" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="700" text-anchor="middle">AI</text>
+        <text x="64" y="22" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="700">AI-Vidya</text>
+        <text x="64" y="38" fill="#E8B79A" font-family="'Space Grotesk', sans-serif" font-size="11" letter-spacing="2">SMART ADAPTIVE LEARNING</text>
+      </g>
+
+      <text x="50" y="160" fill="#FDF9EF" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="38">
+        Learn with machine intelligence.
+      </text>
+      <text x="50" y="210" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="13" opacity="0.8">
+        1,000+ interactive courses with AI-personalized tutor modules.
+      </text>
+
+      <!-- Active Course Card in Preview -->
+      <rect x="50" y="250" width="360" height="180" rx="10" fill="#38180A" stroke="#C46F39" stroke-width="1"/>
+      <text x="70" y="285" fill="#E8B79A" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700">POPULAR COURSE</text>
+      <text x="70" y="315" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700">Full-Stack AI Engineering</text>
+      
+      <!-- Progress Bar -->
+      <rect x="70" y="340" width="320" height="8" rx="4" fill="#532510"/>
+      <rect x="70" y="340" width="220" height="8" rx="4" fill="#C46F39"/>
+      <text x="70" y="375" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="12" opacity="0.8">74% Complete // Module 12 of 16</text>
+
+      <rect x="70" y="390" width="140" height="28" rx="14" fill="#C46F39"/>
+      <text x="140" y="408" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Continue Learning →</text>
+    </g>
+
+    <!-- Right: Stats & Course Grid -->
+    <g transform="translate(530, 80)">
+      <div className="space-y-4">
+        <rect x="0" y="0" width="350" height="100" rx="10" fill="#F7F1DF"/>
+        <text x="24" y="36" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.6">STUDENTS ENROLLED</text>
+        <text x="24" y="72" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="32" font-weight="700">45,000+</text>
+        <text x="24" y="90" fill="#C46F39" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="600">Across 18 Countries</text>
+
+        <g transform="translate(0, 120)">
+          <rect x="0" y="0" width="350" height="360" rx="10" fill="#FDF9EF" stroke="#532510" stroke-width="1" stroke-opacity="0.15"/>
+          <text x="24" y="40" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700">Featured Learning Tracks</text>
+          
+          <rect x="24" y="60" width="302" height="70" rx="8" fill="#F7F1DF"/>
+          <text x="40" y="90" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">Generative AI &amp; LLM Apps</text>
+          <text x="40" y="110" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.6">24 Lessons // 4.9 ★★★★★</text>
+
+          <rect x="24" y="145" width="302" height="70" rx="8" fill="#F7F1DF"/>
+          <text x="40" y="175" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">Python for Autonomous Agents</text>
+          <text x="40" y="195" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.6">32 Lessons // 4.8 ★★★★★</text>
+
+          <rect x="24" y="230" width="302" height="70" rx="8" fill="#F7F1DF"/>
+          <text x="40" y="260" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">Cloud MLOps &amp; Deployment</text>
+          <text x="40" y="280" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.6">18 Lessons // 4.9 ★★★★★</text>
+
+          <rect x="24" y="315" width="302" height="34" rx="17" fill="#532510"/>
+          <text x="175" y="336" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700" text-anchor="middle">Browse All 1,000+ Courses →</text>
+        </g>
+      </div>
+    </g>
+  </g>
+</svg>
+

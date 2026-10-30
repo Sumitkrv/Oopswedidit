@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sora-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDF9EF"/>
+      <stop offset="50%" stop-color="#F7F1DF"/>
+      <stop offset="100%" stop-color="#E8B79A" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="sora-dune" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C46F39"/>
+      <stop offset="100%" stop-color="#532510"/>
+    </linearGradient>
+    <filter id="sora-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#532510" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#sora-sky)"/>
+
+  <!-- Desert Landscape Background -->
+  <path d="M 0 520 Q 300 440, 650 500 T 1200 460 L 1200 800 L 0 800 Z" fill="#E8B79A" opacity="0.35"/>
+  <path d="M 0 580 Q 420 500, 800 580 T 1200 530 L 1200 800 L 0 800 Z" fill="url(#sora-dune)" opacity="0.85"/>
+
+  <!-- Geometric Desert Pavilion Structure -->
+  <polygon points="400,560 600,430 800,560 600,600" fill="#FDF9EF" opacity="0.9"/>
+  <polygon points="600,430 800,560 800,620 600,600" fill="#E8DEC8"/>
+  <line x1="600" y1="430" x2="600" y2="600" stroke="#532510" stroke-width="2"/>
+
+  <!-- Sun / Moon Crest with Rays -->
+  <circle cx="600" cy="300" r="64" fill="#C46F39"/>
+  <g transform="translate(600, 300)">
+    <line x1="0" y1="-75" x2="0" y2="-90" stroke="#C46F39" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="53" y1="-53" x2="64" y2="-64" stroke="#C46F39" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="75" y1="0" x2="90" y2="0" stroke="#C46F39" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="53" y1="53" x2="64" y2="64" stroke="#C46F39" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-53" y1="53" x2="-64" y2="64" stroke="#C46F39" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-75" y1="0" x2="-90" y2="0" stroke="#C46F39" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-53" y1="-53" x2="-64" y2="-64" stroke="#C46F39" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Editorial Floating Booking Widget -->
+  <g transform="translate(180, 140)" filter="url(#sora-shadow)">
+    <rect x="0" y="0" width="840" height="130" rx="16" fill="#FDF9EF" stroke="#532510" stroke-width="1.5"/>
+    
+    <!-- Widget Columns -->
+    <g transform="translate(40, 26)">
+      <text x="0" y="20" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.6" letter-spacing="1">LOCATION</text>
+      <text x="0" y="48" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="600">AlUla Valley, KSA</text>
+      <text x="0" y="72" fill="#C46F39" font-family="'Space Grotesk', sans-serif" font-size="12">Sanctuary Pavilion 03</text>
+    </g>
+
+    <line x1="280" y1="30" x2="280" y2="100" stroke="#532510" stroke-opacity="0.15" stroke-width="1"/>
+
+    <g transform="translate(320, 26)">
+      <text x="0" y="20" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.6" letter-spacing="1">DATES &amp; SEASON</text>
+      <text x="0" y="48" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="600">Nov 14 — Nov 21</text>
+      <text x="0" y="72" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="12" opacity="0.7">7 Nights // New Moon</text>
+    </g>
+
+    <line x1="560" y1="30" x2="560" y2="100" stroke="#532510" stroke-opacity="0.15" stroke-width="1"/>
+
+    <g transform="translate(600, 40)">
+      <rect x="0" y="0" width="190" height="50" rx="25" fill="#532510"/>
+      <text x="95" y="31" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="600" text-anchor="middle">Reserve Suite →</text>
+    </g>
+  </g>
+
+  <!-- Editorial Title Banner Overlay -->
+  <g transform="translate(180, 640)">
+    <text x="0" y="0" fill="#FDF9EF" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="56">Sora Stays</text>
+    <text x="250" y="-8" fill="#E8B79A" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600" letter-spacing="2">HIGH-TOUCH BOUTIQUE HOSPITALITY</text>
+  </g>
+</svg>
+

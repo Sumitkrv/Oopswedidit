@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="thm-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF9EF"/>
+      <stop offset="100%" stop-color="#F7F1DF"/>
+    </linearGradient>
+    <filter id="thm-sh" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#532510" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#thm-bg)"/>
+
+  <g transform="translate(140, 100)" filter="url(#thm-sh)">
+    <rect x="0" y="0" width="920" height="600" rx="16" fill="#FDF9EF" stroke="#532510" stroke-width="1.5"/>
+    <rect x="0" y="0" width="920" height="46" rx="16" fill="#532510"/>
+    <rect x="0" y="30" width="920" height="16" fill="#532510"/>
+    <circle cx="28" cy="23" r="5" fill="#E8B79A"/>
+    <circle cx="44" cy="23" r="5" fill="#C46F39"/>
+    <circle cx="60" cy="23" r="5" fill="#FDF9EF" opacity="0.6"/>
+    <text x="460" y="28" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="12" letter-spacing="2" text-anchor="middle">TELEMED // HACKATHON AWARD-WINNING HEALTHCARE PLATFORM</text>
+
+    <!-- TeleMed Screen -->
+    <g transform="translate(40, 80)">
+      <rect x="0" y="0" width="460" height="480" rx="12" fill="#532510"/>
+      
+      <!-- Video Consultation Frame -->
+      <rect x="40" y="40" width="380" height="240" rx="10" fill="#38180A" stroke="#C46F39" stroke-width="1.5"/>
+      <circle cx="230" cy="130" r="40" fill="#532510"/>
+      <!-- Doctor / Caregiver Silhouette -->
+      <circle cx="230" cy="115" r="16" fill="#FDF9EF"/>
+      <path d="M 205 155 C 205 138, 255 138, 255 155 Z" fill="#FDF9EF"/>
+      <path d="M 230 135 L 230 150 M 220 145 L 240 145" stroke="#C46F39" stroke-width="3"/>
+
+      <!-- Pulse ECG Waveform -->
+      <path d="M 60 250 L 140 250 L 160 230 L 175 270 L 195 210 L 210 260 L 230 250 L 400 250" fill="none" stroke="#E8B79A" stroke-width="2.5"/>
+
+      <text x="40" y="330" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700">TELEMED INNOVATION</text>
+      <text x="40" y="365" fill="#E8B79A" font-family="'Instrument Serif', Georgia, serif" font-style="italic" font-size="24">Instant Virtual Care Anywhere</text>
+      <text x="40" y="405" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="12" opacity="0.8">
+        Built during rapid innovation sprint with WebRTC video, e-prescriptions &amp; AI triage.
+      </text>
+
+      <rect x="40" y="430" width="190" height="30" rx="15" fill="#C46F39"/>
+      <text x="135" y="449" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Launch TeleMed Demo →</text>
+    </g>
+
+    <!-- Clinic Capabilities Column -->
+    <g transform="translate(530, 80)">
+      <rect x="0" y="0" width="350" height="480" rx="12" fill="#F7F1DF" stroke="#532510" stroke-width="1" stroke-opacity="0.15"/>
+      <text x="24" y="38" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700">Platform Highlights</text>
+      
+      <rect x="24" y="60" width="302" height="85" rx="8" fill="#FDF9EF"/>
+      <text x="40" y="90" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">Sub-Second Video Connect</text>
+      <text x="40" y="110" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.7">Low-bandwidth WebRTC optimized for rural clinics</text>
+      <text x="40" y="130" fill="#C46F39" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">Encrypted End-to-End Sessions</text>
+
+      <rect x="24" y="160" width="302" height="85" rx="8" fill="#FDF9EF"/>
+      <text x="40" y="190" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">AI Symptom Checker &amp; Triage</text>
+      <text x="40" y="210" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.7">Pre-consult questionnaire routes to matching specialists</text>
+      <text x="40" y="230" fill="#C46F39" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">Reduces Wait Times by 68%</text>
+
+      <rect x="24" y="260" width="302" height="85" rx="8" fill="#FDF9EF"/>
+      <text x="40" y="290" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">Digital Health Records &amp; Rx</text>
+      <text x="40" y="310" fill="#532510" font-family="'Space Grotesk', sans-serif" font-size="11" opacity="0.7">Instant PDF prescriptions sent directly to pharmacies</text>
+      <text x="40" y="330" fill="#C46F39" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">HL7 / FHIR Interoperable</text>
+
+      <rect x="24" y="370" width="302" height="50" rx="25" fill="#532510"/>
+      <text x="175" y="401" fill="#FDF9EF" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" text-anchor="middle">View Hackathon Showcase →</text>
+    </g>
+  </g>
+</svg>
+
